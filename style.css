@@ -15,12 +15,10 @@ body {
   height: 100vh;
 }
 
-/* Container */
 .container {
   background: #fff;
   border-radius: 10px;
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
-              0 10px 10px rgba(0,0,0,0.22);
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   position: relative;
   overflow: hidden;
   width: 850px;
@@ -28,7 +26,6 @@ body {
   min-height: 500px;
 }
 
-/* Form Containers */
 .form-container {
   position: absolute;
   top: 0;
@@ -49,7 +46,6 @@ body {
   z-index: 1;
 }
 
-/* Active Animation */
 .container.right-panel-active .sign-up-container {
   transform: translateX(100%);
   opacity: 1;
@@ -61,7 +57,6 @@ body {
   opacity: 0;
 }
 
-/* Form Styles */
 form {
   background: #fff;
   display: flex;
@@ -105,7 +100,6 @@ form button:hover {
   transform: scale(1.05);
 }
 
-/* Overlay Container */
 .overlay-container {
   position: absolute;
   top: 0;
@@ -121,7 +115,6 @@ form button:hover {
   transform: translateX(-100%);
 }
 
-/* Overlay Background */
 .overlay {
   background: linear-gradient(45deg, #667eea, #764ba2);
   color: #fff;
@@ -137,7 +130,6 @@ form button:hover {
   transform: translateX(50%);
 }
 
-/* Overlay Panels */
 .overlay-panel {
   position: absolute;
   display: flex;
@@ -169,7 +161,6 @@ form button:hover {
   transform: translateX(20%);
 }
 
-/* Ghost Button */
 .ghost {
   background: transparent;
   border: 2px solid #fff;
